@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Таблица в HTML</title>
+    <style>
+         h1.center {
+            text-align: center;
+        }
+        [colspan], [rowspan] {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Сводная таблица с данными</h1>
+    <table width="500px" border="1">
+        <tr>
+            <th></th>
+            <th><b>2019</b></th>
+            <th><b>2020</b></th>
+            <th><b>2021</b></th>
+        </tr>
+        <tr>
+            <td>Золото</td>
+            <td rowspan="2">5643</td>
+            <td>4533</td>
+            <td>7897</td>
+        </tr>
+        <tr>
+            <td>Бриллианты</td>
+            <td>31234</td>
+            <td>5432</td>
+        </tr>
+        <tr>
+            <td>Валюта</td>
+            <td>43533</td>
+            <td colspan="2">34533</td>
+        </tr>
+    </table>
+</body>
+</html>
