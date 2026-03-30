@@ -1,0 +1,21 @@
+p{
+    color: red;
+}
+#para1{
+    color: green;
+}
+.colortext{
+    color: blue;
+}
+body{
+    background-color: yellow;
+    background-image: url(assets/background.avif);
+    background-repeat: repeat-y;
+    background-repeat:no-repeat ;
+    background-position:right top ;
+    
+}
+h1{
+    background-color: lightblue;
+}
+
