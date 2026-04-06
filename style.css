@@ -1,60 +1,7 @@
-p{
-    color: red;
-    border: 4px dashed red;
-    border-color: red;
-    border-left: 5px dotted violet ;
-    border-radius: 10px;
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: bold;
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
-#para1{
-    color: green;
-}
-.text{
-    width: 200px;
-    border: 2px solid greenyellow;
-    padding: 25px;
-    margin-left: 25px;
-    outline: 5px solid black;
-
-}
-.colortext{
-    color: blue;
-}
-.intro{
-    margin-left: 20px;
-}
-body{
-    background-color: rgb(248, 248, 159);
-    background-image: url(assets/background.avif);
-    background-repeat: repeat-y;
-    background-repeat:no-repeat ;
-    background-position:right top ;
-    background-attachment:fixed ;
-}
-h1{
-    background-color: lightblue;
-    margin: 30px;
-    margin-top: 30px;
-    padding: 40px 10px;
-    height: 100px;
-    width: 50%;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-size: 50px;
-}
-a{
-    text-decoration: none;
-    color: plum;
-}
-a:hover{
-    color: black;
-    text-decoration:underline 
-}
-a:visited{
-    color: green;
-}
-
+/* header{ 
+    background: url(assets/Rectangle\ 31.jpg);
+} */
