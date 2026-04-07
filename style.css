@@ -1,6 +1,12 @@
 *{
     margin: 0;
-    padding: 0;     /*обнуляем края*/
+    padding: 0;  /*обнуляем края*/
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 150%;   
+}
+.basic_text{
+    font-size: 18px;
 }
 
 a{
@@ -11,33 +17,70 @@ a{
     max-width: 1140px;
     margin: 0 auto;
 }
+.red_button{
+    padding: 14px 34px 13px 34px;
+    background-color: #C9453B;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
 
+/* header */
 header{ 
     background: url(assets/Rectangle\ 31.jpg);
     background-repeat: no-repeat;
     color: #FFFFFF;
-
+    background-size: cover;
 }
 
 .Logo{
     font-family: "Ribeye", serif;
-    font-weight: 400;
     font-size: 24px;
-    line-height: 150%;
     letter-spacing: 6%;
 }
 
-.basic_text{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-}
 header a{
     color:#FFFFFF;
     font-weight: 500;
+    margin-left: 50px;
 }
 
-button{
 
-} 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div{
+    padding: 35px 0 200px 0;
+}
+/* header */
+
+/* main */
+.Home{
+    background: url(assets/Rectangle\ 31.jpg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding-bottom: 244px;
+    background-position: top -286px left 0;
+    background-size: cover;
+}
+h1{
+    font-family: "Gelasio", serif;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 120%;
+    width: 804px;
+    margin-bottom: 30px;
+}
+.home-text{
+    width: 458px;
+    margin-bottom: 40px;   
+}
+.Home .red_button{
+    padding: 18px 46px 17px 47px;
+}
+
+
