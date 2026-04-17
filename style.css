@@ -3,10 +3,11 @@
     padding: 0;  /*обнуляем края*/
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    line-height: 150%;   
+    line-height: 150%; 
 }
 .basic_text{
     font-size: 18px;
+    opacity: 60%;
 }
 
 a{
@@ -44,6 +45,7 @@ header a{
     color:#FFFFFF;
     font-weight: 500;
     margin-left: 50px;
+    font-size: 18px;
 }
 
 
@@ -59,13 +61,10 @@ header div{
 /* header */
 
 /* main */
-.Home{
-    background: url(assets/Rectangle\ 31.jpg);
-    background-repeat: no-repeat;
+/*home*/
+.home{
     color: #FFFFFF;
     padding-bottom: 244px;
-    background-position: top -286px left 0;
-    background-size: cover;
 }
 h1{
     font-family: "Gelasio", serif;
@@ -79,8 +78,49 @@ h1{
     width: 458px;
     margin-bottom: 40px;   
 }
-.Home .red_button{
+.home .red_button{
     padding: 18px 46px 17px 47px;
 }
+/*home*/
+/* main */
+/*location*/
+h2{
+    font-family: "Gelasio", serif;
+    font-size: 43px;
+    font-weight: 500;
+    margin: 140px auto 20px auto;
+    text-align: center;
+}
+.location .basic_text{
+    text-align: center;
+}
+.location-text{
+    max-width: 735px;
+    margin: 0 auto 50px auto;
+}
+.location-distription{
+    max-width: 334px;
+    margin: 0 auto 33px auto;
 
+}
+h3{
+    font-family: "Gelasio", serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.location h3{
+    text-align: center;
+    margin: 35px auto 10px auto;
+}
+.location-cart{
+    border: 1px solid rgb(0,0,0,0.1);
+    border-radius: 10px;
+}
+/*about*/
+.about-text{
+    max-width: 656px;
+    margin: 0 auto;
+    text-align: center;
+}
 
